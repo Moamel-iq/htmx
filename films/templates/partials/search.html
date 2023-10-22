@@ -1,0 +1,5 @@
+<input type="text" id="search-input" class="form-control-sm mr-2" placeholder="Search films"
+               hx-post="{% url 'search-film' %}"
+               hx-trigger="keyup"
+               hx-target="#film-list"
+               name="search_query" />
